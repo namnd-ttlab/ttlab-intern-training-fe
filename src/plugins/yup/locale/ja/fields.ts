@@ -1,0 +1,16 @@
+export const fieldsJa = {
+    name: '表示名',
+    quantity: '数量',
+    email: 'メール',
+    emailAddress: 'メールアドレス',
+    password: 'パスワード',
+    fullName: '氏名',
+    phone: '電話番号',
+    birthday: '生年月日',
+    gender: '性別',
+    amount: '金額',
+    unitPrice: '単価',
+    title: 'タイトル',
+    date: '日付',
+    userName: 'ユーザー名',
+};
