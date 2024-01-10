@@ -19,6 +19,8 @@ export const DEFAULT_LANGUAGE = SupportLanguage.EN;
 
 export const REGEX = {
   EMAIL: /^[\w+-\.]+@([\w-]+\.)+[\w-]{1,255}$/,
+  INT_PATTERN: `^[0-9０-９]+$`,
+  FLOAT_PATTERN: `^[0-9０-９]+\\.[0-9０-９]{0,2}$`,
 };
 
 export enum HttpStatus {
@@ -38,13 +40,13 @@ export enum HttpStatus {
 }
 
 export enum OrderDirection {
-  ASC = 'asc',
-  DESC = 'desc',
+  ASC = "asc",
+  DESC = "desc",
 }
 
 export const enum AntdOrderDirection {
-  ASC = 'ascend',
-  DESC = 'descend',
+  ASC = "ascend",
+  DESC = "descend",
 }
 
 export const INPUT_TEXT_MAX_LENGTH = 255; // max length for input text

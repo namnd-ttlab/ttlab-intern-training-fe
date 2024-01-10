@@ -1,0 +1,32 @@
+.custom-input-number-wrapper {
+    .ant-form-item-explain {
+        min-height: 20px;
+        font-size: 12px;
+    }
+    .ant-input-number {
+        width: 100%;
+    }
+    .ant-input-group-addon {
+        background-color: transparent;
+        padding: 0;
+    }
+    .arrow-control {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        .anticon {
+            color: #8c8c8c;
+            padding: 0 4px;
+        }
+        .anticon-up {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        }
+    }
+    &.hide-help-text {
+        .ant-col {
+            div:has(.ant-form-item-explain) {
+                display: none !important;
+            }
+        }
+    }
+}
