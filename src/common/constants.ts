@@ -8,6 +8,7 @@ export enum PageRouter {
   NOT_FOUND = "/404",
   FORBIDDEN = "/forbidden",
   PRODUCT = "/product",
+  LOGIN = "/login",
 }
 
 export enum SupportLanguage {
