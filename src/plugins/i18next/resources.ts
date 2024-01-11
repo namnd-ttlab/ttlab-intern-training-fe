@@ -1,6 +1,7 @@
 import commonEn from "@common/locales/en/common.locale";
 import commonJa from "@common/locales/ja/common.locale";
 import error from "@features/error/locales";
+import product from "@features/product/locales";
 import { yupLocale } from "@plugins/yup/locale";
 
 const resources = {
@@ -9,6 +10,7 @@ const resources = {
       common: commonEn,
       yup: yupLocale.localeEn,
       error: error.en,
+      product: product.en,
     },
   },
   ja: {
@@ -16,6 +18,7 @@ const resources = {
       common: commonJa,
       yup: yupLocale.localeJa,
       error: error.ja,
+      product: product.ja,
     },
   },
 };
