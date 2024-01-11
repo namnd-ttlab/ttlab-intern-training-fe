@@ -20,14 +20,21 @@ export function LoginPage() {
   };
   return (
     <div className="login-page">
+      <h2>Login</h2>
       <Form layout="vertical" className="login-form">
-        <InputTextField name="email" label="Email" control={control} />
+        <InputTextField
+          name="email"
+          label="Email"
+          placeholder="Enter your email"
+          control={control}
+        />
         <InputPasswordField
           name="password"
           label="Password"
+          placeholder="Enter your password"
           control={control}
         />
-        <Button type="primary" onClick={login}>
+        <Button type="primary" onClick={login} block>
           Login
         </Button>
       </Form>
