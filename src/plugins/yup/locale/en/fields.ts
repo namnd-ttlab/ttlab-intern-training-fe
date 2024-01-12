@@ -1,0 +1,16 @@
+export const fieldsEn = {
+  name: "Name",
+  quantity: "Quantity",
+  email: "Email",
+  emailAddress: "Email",
+  password: "Password",
+  fullName: "Full name",
+  phone: "Phone",
+  birthday: "Birthday",
+  gender: "Gender",
+  amount: "Amount",
+  unitPrice: "Price",
+  title: "Title",
+  date: "Date",
+  userName: "User name",
+};
