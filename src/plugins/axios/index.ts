@@ -18,7 +18,7 @@ const options: AxiosRequestConfig = {
   } as unknown as AxiosRequestHeaders,
   baseURL: import.meta.env.VUE_APP_API_URL,
   responseType: 'json',
-  withCredentials: true,
+  withCredentials: false,
 };
 
 const axiosInstance = axios.create(options);
